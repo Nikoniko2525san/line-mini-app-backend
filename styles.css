@@ -1,0 +1,79 @@
+/* ページ全体の背景にグラデーションを設定 */
+body {
+    background: linear-gradient(135deg, #fff7a1, #f5e18d); /* 薄い黄色から明るい黄色に */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー部分のスタイル */
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* 透け感を持たせる白い背景 */
+    color: #333;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 48px;
+    font-weight: 700; /* 太くする */
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* かわいらしいフォントを選択 */
+    border-bottom: 1px solid #ddd; /* ヘッダー下部に薄い線 */
+}
+
+/* メニュータイトルのスタイル */
+.menu-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #333;
+}
+
+/* 注意書きのスタイル */
+.warning-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.warning-text p {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ボタンコンテナのスタイル */
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ボタンのスタイル */
+.button {
+    background-color: #a7c7e7; /* 薄い水色 */
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 50px; /* さらに丸く */
+    text-align: center;
+    width: 250px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* ボタンのホバー時のスタイル */
+.button:hover {
+    background-color: #7daedb; /* 少し濃い水色 */
+    transform: scale(1.05);
+}
+
+/* ボタンのアクティブ時のスタイル */
+.button:active {
+    background-color: #6299c4;
+    transform: scale(0.98);
+}
